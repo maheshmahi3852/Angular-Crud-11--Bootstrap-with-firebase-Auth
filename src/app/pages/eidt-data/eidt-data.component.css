@@ -1,0 +1,10 @@
+.update-button button{
+    background-color:  rgb(192, 3, 250);
+    color: white;
+}
+.validation-error{
+    color: red;
+}
+input.ng-invalid.ng-touched{ 
+    border-color: rgba(255,10,29,1) !important; box-shadow: none !important; 
+} 

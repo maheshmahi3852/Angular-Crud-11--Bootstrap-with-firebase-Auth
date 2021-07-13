@@ -1,0 +1,28 @@
+<app-navbar></app-navbar>
+
+<div class="container text-center  productid">
+
+    <div class="row align-items-center ">
+        <div class="col-md-6 mx-auto mt-5">
+            <div class=" align-content-center">
+                <div class="card mt-2 p-2 " style="width: 20rem">
+                    <!-- card start -->
+                    <div class="card-body" *ngIf="productData">
+                        <h5 class="card-title text-success mt-3">
+                       {{ productData.studentname}}
+                        </h5>
+                        <p class="card-text ">Branch :{{ productData.branch }}</p>
+                        <p>Percentage :{{ productData.percentage }}</p>
+                        <p>Birth : {{productData.birth}}</p>
+                        <p class="card-text">joining :{{productData.joining}}</p>
+                        <p class="card-text">qualify: {{productData.qualify}}</p>
+                    </div> <!-- card body end -->
+                    <button class="btn btn-success w-50 mx-auto" routerLink='/home'> Back to home</button>
+
+                </div> <!-- card end -->
+            </div> <!-- ng for data end -->
+        </div>
+     
+    </div>
+
+</div> <!-- container end -->

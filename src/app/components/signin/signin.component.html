@@ -1,0 +1,47 @@
+<div class="container">
+    <div class="row d-flex justify-content-center mt-5">
+        <div class="col-12 col-md-8 col-lg-6 col-xl-5">
+            <div class="card py-3 px-2">
+                <div class="company ">
+                <p class="text-center mb-3 mt-2 d-flex justify-content-center">
+                <!-- <i class="fab fa-apple mr-2"> </i> -->
+                 Google TechSoft Limited</p>
+                </div>
+                <div class="row mx-auto ">
+                    <div class="col-4"> <i class="fab fa-twitter"></i> </div>
+                    <div class="col-4"> <i class="fab fa-facebook"></i> </div>
+                    <div class="col-4"> <i class="fab fa-google"></i> </div>
+                </div>
+                <div class="division">
+                    <div class="row">
+                        <div class="col-3">
+                            <div class="line l"></div>
+                        </div>
+                        <div class="col-6"><span>Signin With Creditals </span></div>
+                        <div class="col-3">
+                            <div class="line r"></div>
+                        </div>
+                    </div>
+                </div>
+                <form class="myform" [formGroup]="loginForm">
+                    <div class="form-group"> <input type="email" formControlName="email" class="form-control"
+                            placeholder="Enter Email"> </div>
+                    <div class="form-group"> <input type="password" formControlName="password" class="form-control"
+                            placeholder="Enter Password">
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 col-12"><a>Forgot Password ?</a></div>
+                    </div>
+                    <div class="form-group mt-3">
+                        <button type="submit" class="btn btn-block btn-primary btn-lg"  (click)="loginUser()"><small><i
+                                    class="far fa-user pr-2"></i>Sign in</small>
+                        </button>
+                        <button type="button" class="btn btn-block btn-primary btn-lg" routerLink="/signup"><small><i
+                                    class="far fa-user pr-2"></i>Register Here</small>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

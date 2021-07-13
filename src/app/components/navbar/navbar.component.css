@@ -1,0 +1,14 @@
+.navbar{
+    background-color: rgb(192, 3, 250);
+}
+
+i .fab {
+    font-size: 35px;
+    margin-top: 5px;
+}
+@media(max-width: 450px) {
+    .navbar h3{
+        font-size: 15px;
+        text-align: center;
+    }
+}

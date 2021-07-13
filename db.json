@@ -1,0 +1,116 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "studentname": "Mahesh Babu",
+      "branch": "Mech",
+      "percentage": "80%",
+      "birth": "16-01-1996",
+      "joining": "2017",
+      "qualify": "Pass"
+    },
+    {
+      "id": 2,
+      "studentname": "Ganesh",
+      "branch": "cse",
+      "percentage": "78%",
+      "birth": "18-03-1997",
+      "joining": "2018",
+      "qualify": "Fail"
+    },
+    {
+      "id": 3,
+      "studentname": "Preethi",
+      "branch": "Cse",
+      "percentage": "70%",
+      "birth": "17-08-1995",
+      "joining": "2016",
+      "qualify": "Pass"
+    },
+    {
+      "id": 4,
+      "studentname": "Harish",
+      "branch": "Ece",
+      "percentage": "69%",
+      "birth": "13-03-1997",
+      "joining": "2018",
+      "qualify": "Pass"
+    },
+    {
+      "id": 5,
+      "studentname": "Shruthi",
+      "branch": "Ece",
+      "percentage": "84%",
+      "birth": "14-09-1995",
+      "joining": "2016",
+      "qualify": "Pass"
+    },
+    {
+      "id": 6,
+      "studentname": "Kiranmai",
+      "branch": "Cse",
+      "percentage": "92%",
+      "birth": "02-03-1998",
+      "joining": "2019",
+      "qualify": "Pass"
+    },
+    {
+      "id": 7,
+      "studentname": "Esha",
+      "branch": "Cse",
+      "percentage": "82%",
+      "birth": "08-06-1996",
+      "joining": "2017",
+      "qualify": "Pass"
+    },
+    {
+      "id": 8,
+      "studentname": "Anusha",
+      "branch": "Eee",
+      "percentage": "85%",
+      "birth": "08-09-1997",
+      "joining": "2019",
+      "qualify": "Pass"
+    },
+    {
+      "id": 9,
+      "studentname": "Somesh",
+      "branch": "Mech",
+      "percentage": "76%",
+      "birth": "02-03-1993",
+      "joining": "2015",
+      "qualify": "Pass"
+    },
+    {
+      "id": 10,
+      "studentname": "Keerthana",
+      "branch": "Cse",
+      "percentage": "65%",
+      "birth": "12-09-1997",
+      "joining": "2018",
+      "qualify": "Fail"
+    },
+    {
+      "id": 11,
+      "studentname": "Srinu",
+      "branch": "Civil",
+      "percentage": "60%",
+      "birth": "12-07-1997",
+      "joining": "2018",
+      "qualify": "Passs"
+    },
+    {
+      "id": 12,
+      "studentname": "Mahipal",
+      "branch": "Ece",
+      "percentage": "79%",
+      "birth": "12-09-1997",
+      "joining": "2018",
+      "qualify": "Pass"
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}
